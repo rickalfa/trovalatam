@@ -1,0 +1,56 @@
+
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+
+$font-family-sans-serif: "Nanum Gothic", sans-serif;
+
+
+.bg-azul{
+    background-color: hwb(241 0% 32%);
+}
+
+
+.o-rojo::after {
+    content: "o";
+    color: red;
+  }
+
+  .boxmain{
+
+    top: 10%;
+    height: 80vh;
+    width: 100%;
+
+  }
+
+  .boxsection{
+
+    height: 80vh;
+    width: 90%;
+
+
+  }
+
+.bg-imagen{
+
+  background-image: url("../imgs/Imagen1.svg");
+  background-size: cover;
+
+
+
+}
+
+
+p[data-o-color="red"]::after {
+    content: "o";
+    color: var(--o-color);
+  }
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here

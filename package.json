@@ -1,0 +1,18 @@
+{
+  "name": "trova",
+  "version": "1.0.0",
+  "description": "empresa consultora que ofrece soluciones de cambio adaptativo por medio de la accion movilizadora del liderazco y la comunicacion basada en la tecnologia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "trova"
+  },
+  "author": "ricardo betancourt",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
