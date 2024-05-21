@@ -32,6 +32,13 @@ $font-family-sans-serif: "Nanum Gothic", sans-serif;
 
 }
 
+.basic-box{
+
+  height: 200px;
+  width: 200px;
+
+}
+
 .o-rojo::after {
     content: "o";
     color: #d30f10;
